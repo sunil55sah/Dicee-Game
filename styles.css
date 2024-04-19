@@ -1,0 +1,75 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #FF4500;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 2rem;
+  color:  #FFFFFF;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+
+
+
+
+/*    //you can use this commented code but not able to make horizontal sliding effect.
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+} */
+
+
+
+
+
+
+/* Style for the sliding footer */
+.sliding-footer {
+  overflow: hidden;
+}
+
+/* Style for the footer content */
+.footer-content {
+  white-space: nowrap;
+  animation: slide 10s linear infinite; /* Sliding animation */
+  font-size: 45px; /* Adjust the font size as needed */
+  color: blue; /* Text color set to blue */
+}
+
+/* Keyframes animation for sliding effect */
+@keyframes slide {
+  0% {
+    transform: translateX(100%); /* Start position: all the way to the right */
+  }
+  100% {
+    transform: translateX(-100%); /* End position: all the way to the left */
+  }
+}
+
